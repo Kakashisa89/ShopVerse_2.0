@@ -8,6 +8,8 @@
     <title>ShopVerse</title>
 </head>
 <body>
+
+    
    <section class=" min-vh-100">
     {{$slot }}
 

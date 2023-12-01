@@ -7,13 +7,13 @@
     background-repeat: no-repeat, no-repeat;
 }
 
-/* CSS sezione intermedia */
+/* CSS sezione 3*/
 .masthead2 {
     height: 100vh;
     min-height: 500px;
-    background: linear-gradient(black 2%, transparent, black 99%), url('../../public/Media/home2.jpg');
+    background: linear-gradient( black 2%, transparent, black 99%), url('../../public/Media/home2.jpg');
     background-size: cover;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
 }
 /* Sezione tasti annunci,inserisci annunci,categorie */

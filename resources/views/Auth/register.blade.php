@@ -1,11 +1,5 @@
 <x-layout>
-
-
     
-    <x-homeHeader />
-
-
-
 
 
 

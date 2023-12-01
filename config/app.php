@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
+use App\Providers\FortifyServiceProvider;
 
 return [
 
@@ -158,7 +159,9 @@ return [
     'providers' => ServiceProvider::defaultProviders()->merge([
         /*
          * Package Service Providers...
+
          */
+        FortifyServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -1,11 +1,14 @@
 
 
 
-
+body{
+    background-color: black;
+}
 
 :root{
     --main-color:white;
     --accent-color:#ffd60a;
+    --btn-color:black;
 }
 .text-main{
     color:var(--main-color);
