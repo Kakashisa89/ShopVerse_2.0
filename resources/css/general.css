@@ -1,0 +1,23 @@
+
+
+
+
+
+:root{
+    --main-color:white;
+    --accent-color:#ffd60a;
+}
+.text-main{
+    color:var(--main-color);
+}
+
+.text-accent{
+    color:var(--accent-color);
+}
+
+.bg-main{
+    background-color: var(--main-color);
+}
+.bg-secondary{
+    background-color: var(--accent-color);
+}

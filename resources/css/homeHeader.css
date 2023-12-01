@@ -1,0 +1,80 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(transparent, black 99%), url('../../public/Media/home1.jpg');
+    background-size: 100%,cover;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+/* CSS sezione intermedia */
+.masthead2 {
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(black 2%, transparent, black 99%), url('../../public/Media/home2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Sezione tasti annunci,inserisci annunci,categorie */
+.tasto {
+    background:
+        linear-gradient(to right, var(--accent-color)2px, transparent 2px) 0 0,
+        linear-gradient(to right, var(--accent-color)2px, transparent 2px) 0 100%,
+        linear-gradient(to left, var(--accent-color)2px, transparent 2px) 100% 0,
+        linear-gradient(to left, var(--accent-color)2px, transparent 2px) 100% 100%,
+        linear-gradient(to bottom, var(--accent-color)2px, transparent 2px) 0 0,
+        linear-gradient(to bottom, var(--accent-color)2px, transparent 2px) 100% 0,
+        linear-gradient(to top, var(--accent-color)2px, transparent 2px) 0 100%,
+        linear-gradient(to top, var(--accent-color)2px, transparent 2px) 100% 100%
+    ;
+
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    transition: 0.4s;
+}
+
+.tasto:hover {
+    letter-spacing: 2px;
+}
+/* Sezione bottone registrati */
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+  .bn632-hover:focus {
+    outline: none;
+  }
+
+  .bn632-hover.bn20 {
+    background-image: linear-gradient(
+      to right,
+      #ffd60a,
+      #FED964,
+      #FFE596,
+      #a5f1e9
+    );
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }

@@ -8,7 +8,7 @@
     <title>ShopVerse</title>
 </head>
 <body>
-   <section class="container my-5 min-vh-100 ">
+   <section class=" min-vh-100">
     {{$slot }}
 
    </section>
